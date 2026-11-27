@@ -58,7 +58,7 @@ a.badge.go:hover { background: #8cffb0; color: #07100a; }
 .panel ul { margin: 0; padding-left: 20px; }
 .panel li { margin: 4px 0; }
 
-.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
+.shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 24px 0; }
 .shots img { width: 100%; border: 2px solid var(--edge-dark); }
 .wide img { width: 100%; border: 2px solid var(--edge-dark); }
 
@@ -72,5 +72,5 @@ footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
   .hero { grid-template-columns: 1fr; text-align: center; }
   .hero img { margin: 0 auto; width: 160px; height: 160px; }
   .hero h1 { font-size: 32px; }
-  .shots { grid-template-columns: 1fr; }
+  .shots { grid-template-columns: repeat(2, 1fr); }
 }
