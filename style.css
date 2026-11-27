@@ -41,10 +41,14 @@ nav.lang a[aria-current="page"] { color: var(--amber); }
 .hero h1 { margin: 0 0 8px; font-size: 40px; line-height: 1.1; letter-spacing: 3px; color: var(--green); }
 .hero p { margin: 0 0 16px; font-size: 18px; color: var(--text); }
 .badge {
-  display: inline-block; padding: 10px 16px; border: 2px solid var(--edge-light);
+  display: inline-block; padding: 10px 16px; margin: 0 8px 8px 0; border: 2px solid var(--edge-light);
   border-right-color: var(--edge-dark); border-bottom-color: var(--edge-dark);
   background: var(--panel); color: var(--amber); text-decoration: none;
 }
+a.badge.go { background: var(--green); color: #07100a; font-weight: 700; }
+a.badge.go:hover { background: #8cffb0; color: #07100a; }
+.badge.soon { color: var(--muted); }
+.hero .note { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
 
 .panel {
   background: var(--panel); padding: 20px 24px; margin: 24px 0;
