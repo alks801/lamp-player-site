@@ -64,6 +64,8 @@ a.badge.go:hover { background: #8cffb0; color: #07100a; }
 .policy h2 { color: var(--amber); margin-top: 32px; }
 .policy p { margin: 10px 0; }
 
+h1.page { margin: 32px 0 8px; font-size: 26px; letter-spacing: 3px; color: var(--green); }
+.panel h2 .date { margin-left: 10px; font-size: 14px; letter-spacing: 0; color: var(--muted); }
 footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
 
 @media (max-width: 640px) {
