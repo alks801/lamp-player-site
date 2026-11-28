@@ -4,7 +4,7 @@
 
 - https://alks801.github.io/lamp-player-site/ — главная (английский)
 - https://alks801.github.io/lamp-player-site/ru.html — главная (русский)
-- https://alks801.github.io/lamp-player-site/changelog.html и `changelog-ru.html` — история версий: коротко, что нового в каждой. При выпуске новой версии её блок добавляется сверху на обеих страницах
+- https://alks801.github.io/lamp-player-site/changelog.html и `changelog-ru.html` — история версий: коротко, что нового в каждой. При выпуске новой версии её блок добавляется сверху на обеих страницах, с картинками из `img/` (блок `<div class="pics">`)
 - https://alks801.github.io/lamp-player-site/privacy.html — политика конфиденциальности, ссылка для Google Play
 - https://alks801.github.io/lamp-player-site/thanks.html — переадресация на страницу благодарности автору. Клавиша «Сказать спасибо» в приложении открывает именно этот адрес, поэтому его нельзя менять или удалять. Если страница оплаты переедет, новый адрес вписывается в `thanks.html` (в трёх местах), а приложение пересобирать не нужно
 
